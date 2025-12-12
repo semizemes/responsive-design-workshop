@@ -1,0 +1,14 @@
+{
+  "name": "responsive-design-workshop",
+  "description": "Responsive design workshop - building mobile-first, fluid layouts with modern CSS",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
