@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #404040;
@@ -25,7 +31,6 @@ p {
 }
 
 .beta-text {
-    order: 1;
     font-weight: 900;
 }
 
@@ -36,8 +41,8 @@ p {
 }
 
 .beta-text,
-.subheading,
-.top-text {
+.top-text,
+.subheading {
     text-transform: uppercase;
 }
 
@@ -46,9 +51,8 @@ p {
     font-weight: 900;
     padding-top: 0.25em;
     border-top: 5px solid;
-    margin: 0 auto;
     order: -1;
-    width: fit-content;
+    margin: 0 auto;
 }
 
 .fine-print {
@@ -97,6 +101,11 @@ p {
     border-radius: 50%;
 }
 
+.main-content p,
+form {
+    max-width: 450px;
+}
+
 /* =================
     Form
    ================= */
@@ -133,7 +142,6 @@ input:focus {
     color: white;
     background-color: #8a71ec;
     margin-top: 1em;
-
 }
 
 .btn-primary:hover,
