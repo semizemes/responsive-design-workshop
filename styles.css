@@ -25,6 +25,7 @@ p {
 }
 
 .beta-text {
+    order: 1
     font-weight: 900;
 }
 
@@ -45,6 +46,9 @@ p {
     font-weight: 900;
     padding-top: 0.25em;
     border-top: 5px solid;
+    margin: 0 auto;
+    order: -1;
+    width: fit-content;
 }
 
 .fine-print {
@@ -70,12 +74,13 @@ p {
    ================= */
 
 .intro {
-    justify-content: center;
+    justify-content: space-between;
     min-height: 250px;
     text-align: center;
     color: #fff;
     background: #9480e4 url("images/intro-bg.png");
     background-size: cover;
+    padding-bottom: 1.5em;
 }
 
 /* ====================
